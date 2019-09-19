@@ -234,7 +234,7 @@ Removing network hello_default
 
 ## Installation
 
-**Note**: This requires a pre-release version (19.03.0 beta 1 or later) of the
+**Note**: This requires version 19.03.0 or later of the 
 [Docker CLI](https://download.docker.com).
 
 Pre-built static binaries are available on
@@ -264,6 +264,7 @@ To install as a Docker CLI plugin:
 ```console
 mkdir -p ~/.docker/cli-plugins && cp "/tmp/docker-app-plugin-${OSTYPE}" ~/.docker/cli-plugins/docker-app
 ```
+**Note**: Don't forget to enable [Docker experimental features](https://github.com/docker/docker-ce/blob/master/components/cli/experimental/README.md) 
 
 ### Windows
 
